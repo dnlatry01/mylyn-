@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetables Match</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="games.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Vegetables Match</h1>
+    </header>
+
+    <div class="draggableContainer">
+        <div class="box" draggable="true" id="box1">
+            <img src="broccoli.jpg" alt="Broccoli" width="100" height="100">
+           
+        </div>
+        <div class="box" draggable="true" id="box2">
+            <img src="cabbage.jpg" alt="Cabbage" width="100" height="100">
+            
+        </div>
+        <div class="box" draggable="true" id="box3">
+            <img src="carrot.jpg" alt="Carrot" width="100" height="100">
+            
+        </div>
+        <div class="box" draggable="true" id="box4">
+            <img src="corn.jpg" alt="Corn" width="100" height="100">
+            
+        </div>
+        <div class="box" draggable="true" id="box5">
+            <img src="eggplant.jpg" alt="Eggplant" width="100" height="100">
+            
+        </div>
+        <div class="box" draggable="true" id="box6">
+            <img src="greenpeas.jpg" alt="Greenpeas" width="100" height="100">
+            
+        </div>
+        <div class="box" draggable="true" id="box7">
+            <img src="onions.jpg" alt="Onions" width="100" height="100">
+            
+        </div>
+        <div class="box" draggable="true" id="box8">
+            <img src="potato.jpg" alt="Potato" width="100" height="100">
+            
+        </div>
+        <div class="box" draggable="true" id="box9">
+            <img src="pumpkin.jpg" alt="Pumpkin" width="100" height="100">
+            
+        </div>
+        <div class="box" draggable="true" id="box10">
+            <img src="tomato.jpg" alt="Tomato" width="100" height="100">
+            
+        </div>
+    </div>
+
+    <div class="droppableContainer"></div>
+        <div class="droppable" data-draggable-id="box1">
+            <p>Broccoli</p>
+        </div>
+        <div class="droppable" data-draggable-id="box2">
+            <p>Cabbage</p>
+        </div>
+        <div class="droppable" data-draggable-id="box3">
+            <p>Carrot</p>
+        </div>
+        <div class="droppable" data-draggable-id="box4">
+            <p>Corn</p>
+        </div>
+        <div class="droppable" data-draggable-id="box5">
+            <p>Eggplant</p>
+        </div>
+        <div class="droppable" data-draggable-id="box6">
+            <p>Greenpeas</p>
+        </div>
+        <div class="droppable" data-draggable-id="box7">
+            <p>Onions</p>
+        </div>
+        <div class="droppable" data-draggable-id="box8">
+            <p>Potato</p>
+        </div>
+        <div class="droppable" data-draggable-id="box9">
+            <p>Pumpkin</p>
+        </div>
+        <div class="droppable" data-draggable-id="box10">
+            <p>Tomato</p>
+        </div>
+    </div>
+
+    <div class="board">
+        Remarks: <p id="remarks"></p>
+        Score: <p id="scores">0</p>
+    </div>
+</body>
+</html>
